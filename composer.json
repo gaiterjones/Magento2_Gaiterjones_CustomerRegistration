@@ -1,0 +1,22 @@
+{
+    "name": "gaiterjones/module-registration",
+    "description": "",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "email": "info@gaiterjones.com",
+            "name": "GAITERJONES"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Gaiterjones\\CustomerRegistration\\": ""
+        }
+    }
+}

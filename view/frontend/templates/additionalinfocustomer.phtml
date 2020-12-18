@@ -1,0 +1,19 @@
+<fieldset class="fieldset create account">
+    <div class="field gj_custom_boolean_attribute">
+        <label for="gj_custom_boolean_attribute" class="label"><span><?php /* @escapeNotVerified */
+                echo __('Customer Custom Boolean Attribute') ?></span>
+        </label>
+        <div class="control">
+            <input type="checkbox" checked name="gj_custom_boolean_attribute" id="gj_custom_boolean_attribute" title="<?php /* @escapeNotVerified */
+            echo __('Customer Custom Boolean Attribute') ?>" class="input-text" autocomplete="off" value="1">
+        </div>
+    </div>
+    <div class="field gj_custom_text_attribute required">
+        <label class="label" for="gj_custom_text_attribute">
+          <span><?= $block->escapeHtml(__('Customer Custom Text Attribute')) ?></span>
+        </label>
+        <div class="control">
+           <input type="text" name="gj_custom_text_attribute" id="gj_custom_text_attribute" value="" title="<?= $block->escapeHtmlAttr(__('Customer Custom Text Attribute')) ?>" class="input-text" data-validate="{required:true}">
+        </div>
+    </div>
+</fieldset>
